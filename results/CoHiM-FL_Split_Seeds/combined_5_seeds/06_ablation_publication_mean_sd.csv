@@ -1,0 +1,8 @@
+Clients,Ablation_Variant,N_Seeds,Seeds,Adaptive_Client_Selection,Hierarchical_Aggregation,Adaptive_TopK,INT8_Quantization,Error_Feedback,Missing_Reconstruction,BLEU1,METEOR,Label_F1_micro,Total_Comm_Cost_MB,BLEU1_Contribution_vs_Variant,METEOR_Contribution_vs_Variant,Comm_Change_%_vs_Full
+20,Full_Proposed,5,"7,21,42,84,126",True,True,True,True,True,True,0.2946 ± 0.0272,0.2721 ± 0.0265,0.7673 ± 0.0035,8772.4835 ± 0.6758,0.0000 ± 0.0000,0.0000 ± 0.0000,0.0000 ± 0.0000
+20,w_o_Adaptive_TopK,5,"7,21,42,84,126",True,True,False,True,True,True,0.2946 ± 0.0339,0.2781 ± 0.0257,0.7692 ± 0.0004,11407.9001 ± 0.0000,-0.0001 ± 0.0193,-0.0059 ± 0.0084,30.0419 ± 0.0100
+20,w_o_Client_Selection,5,"7,21,42,84,126",False,True,True,True,True,True,0.3015 ± 0.0292,0.2831 ± 0.0237,0.7664 ± 0.0029,8772.0194 ± 0.5466,-0.0069 ± 0.0261,-0.0110 ± 0.0146,-0.0053 ± 0.0052
+20,w_o_Error_Feedback,5,"7,21,42,84,126",True,True,True,True,False,True,0.2948 ± 0.0447,0.2810 ± 0.0305,0.7690 ± 0.0003,8768.8469 ± 0.5728,-0.0003 ± 0.0385,-0.0089 ± 0.0246,-0.0415 ± 0.0029
+20,w_o_Hierarchical,5,"7,21,42,84,126",True,False,True,True,True,True,0.3005 ± 0.0186,0.2757 ± 0.0267,0.7681 ± 0.0020,8772.5283 ± 0.6611,-0.0059 ± 0.0122,-0.0035 ± 0.0099,0.0005 ± 0.0015
+20,w_o_INT8,5,"7,21,42,84,126",True,True,True,False,True,True,0.2944 ± 0.0272,0.2720 ± 0.0265,0.7673 ± 0.0035,28803.3338 ± 2.8150,0.0001 ± 0.0004,0.0002 ± 0.0003,228.3373 ± 0.0072
+20,w_o_Missing_Reconstruction,5,"7,21,42,84,126",True,True,True,True,True,False,0.2965 ± 0.0264,0.2735 ± 0.0262,0.7677 ± 0.0032,8772.4296 ± 0.8419,-0.0019 ± 0.0042,-0.0014 ± 0.0029,-0.0006 ± 0.0022

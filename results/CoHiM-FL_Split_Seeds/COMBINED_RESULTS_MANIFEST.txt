@@ -1,0 +1,13 @@
+CBA-HFL-MI Five-Seed Combined Results
+Seeds: [7, 21, 42, 84, 126]
+Statistic: arithmetic mean ± sample standard deviation (ddof=1)
+No best-seed selection.
+Data-integrity gate: zero UID/image overlap required for every seed.
+All five seeds must have an identical fixed split SHA-256 fingerprint.
+Exact missing-study counts: round(rate*N), deterministic nested masks.
+Generated-report clinical correctness: REAL CheXbert, Mean ± sample SD across five seeds.
+Missing-reconstruction stress ablation: 0/30/60/90%, Mean ± sample SD across five seeds.
+Methods: ['FedAvg', 'FedProx', 'Fedsw', 'CAR-MFL', 'Proposed_CBA_NHFL_MI_Q1']
+Client settings: [5, 10, 20, 40]
+Ablation variants: ['Full_Proposed', 'w_o_Client_Selection', 'w_o_Hierarchical', 'w_o_Adaptive_TopK', 'w_o_INT8', 'w_o_Error_Feedback', 'w_o_Missing_Reconstruction']
+Created: 2026-09-11T17:25:24
