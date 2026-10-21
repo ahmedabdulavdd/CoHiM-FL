@@ -1,0 +1,114 @@
+Severity,Method,Clients,Missing_Rate,Protocol,Issue,Observed_Value
+REVIEW,FedAvg,5,0.3,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008113306962793082
+REVIEW,FedAvg,5,0.3,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.014184470069471766
+REVIEW,FedAvg,5,0.3,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005380393454032462
+REVIEW,FedAvg,5,0.3,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.009505719477822056
+REVIEW,FedAvg,5,0.3,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007258892394782279
+REVIEW,FedAvg,5,0.6,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.015970382323509696
+REVIEW,FedAvg,5,0.6,alternate,BLEU4 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005784976770356012
+REVIEW,FedAvg,5,0.6,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006359991600979886
+REVIEW,FedAvg,5,0.6,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.026442611255281412
+REVIEW,FedAvg,5,0.6,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008768756548310136
+REVIEW,FedAvg,5,0.6,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008437592384266418
+REVIEW,FedAvg,5,0.6,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01688949865147904
+REVIEW,FedAvg,5,0.9,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01992056503047565
+REVIEW,FedAvg,5,0.9,alternate,BLEU4 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006727789141608806
+REVIEW,FedAvg,5,0.9,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01565695681365431
+REVIEW,FedAvg,5,0.9,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.032717864908845984
+REVIEW,FedAvg,5,0.9,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007868926695470818
+REVIEW,FedAvg,5,0.9,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.03420303533754521
+REVIEW,FedProx,5,0.3,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008132025464994391
+REVIEW,FedProx,5,0.3,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01414328924222169
+REVIEW,FedProx,5,0.3,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005365187189272508
+REVIEW,FedProx,5,0.3,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.00939330610267955
+REVIEW,FedProx,5,0.3,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007258892394782279
+REVIEW,FedProx,5,0.6,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.015540409481499678
+REVIEW,FedProx,5,0.6,alternate,BLEU4 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005674281663182054
+REVIEW,FedProx,5,0.6,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006359991600979886
+REVIEW,FedProx,5,0.6,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.026251096186058587
+REVIEW,FedProx,5,0.6,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0084848568969354
+REVIEW,FedProx,5,0.6,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007273572288439362
+REVIEW,FedProx,5,0.6,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01688949865147904
+REVIEW,FedProx,5,0.9,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01895313468242163
+REVIEW,FedProx,5,0.9,alternate,BLEU4 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006504871480584276
+REVIEW,FedProx,5,0.9,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01565695681365431
+REVIEW,FedProx,5,0.9,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.03249427989002185
+REVIEW,FedProx,5,0.9,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007208540307736849
+REVIEW,FedProx,5,0.9,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.03420303533754521
+REVIEW,Fedsw,5,0.3,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.00671585270412578
+REVIEW,Fedsw,5,0.6,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008512207445568937
+REVIEW,Fedsw,5,0.6,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005064123209050808
+REVIEW,Fedsw,5,0.6,frontal,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007831864195681187
+REVIEW,Fedsw,5,0.6,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005408076523206351
+REVIEW,Fedsw,5,0.6,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01049941867495685
+REVIEW,Fedsw,5,0.9,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.012769597391712434
+REVIEW,Fedsw,5,0.9,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008584524797085158
+REVIEW,Fedsw,5,0.9,frontal,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01316197444464201
+REVIEW,Fedsw,5,0.9,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007211799735998725
+REVIEW,Fedsw,5,0.9,lateral,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006249460328936529
+REVIEW,Fedsw,5,0.9,lateral,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.02220600744955281
+REVIEW,Proposed_CBA_NHFL_MI_Q1,5,0.9,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0067668861068092
+REVIEW,FedAvg,10,0.3,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,FedProx,10,0.3,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,10,0.3,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,10,0.3,frontal,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.009901791923274617
+REVIEW,Fedsw,10,0.3,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008315096211947703
+REVIEW,Fedsw,10,0.3,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.012202575108200664
+REVIEW,Fedsw,10,0.6,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007144656296112273
+REVIEW,Fedsw,10,0.6,alternate,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0064951931780907746
+REVIEW,Fedsw,10,0.6,frontal,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.019200506686185892
+REVIEW,Fedsw,10,0.6,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01272263474962465
+REVIEW,Fedsw,10,0.6,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0232649658417535
+REVIEW,Fedsw,10,0.9,alternate,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.01349412109143755
+REVIEW,Fedsw,10,0.9,alternate,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.014826490506213985
+REVIEW,Fedsw,10,0.9,frontal,BLEU1 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.030611676494163326
+REVIEW,Fedsw,10,0.9,frontal,BLEU4 improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007381818516177599
+REVIEW,Fedsw,10,0.9,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.019693598514838984
+REVIEW,Fedsw,10,0.9,frontal,METEOR improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.03615495331930463
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.3,alternate,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.00573929885188007
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.3,frontal,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006319139999930501
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.6,alternate,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005623148383044896
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.6,alternate,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007353242480014788
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.6,frontal,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0068644574429427285
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.6,frontal,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008985509025403626
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.9,alternate,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005251784401698267
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.9,alternate,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006865553300585137
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.9,frontal,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006047653249059204
+REVIEW,Proposed_CBA_NHFL_MI_Q1,10,0.9,frontal,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007911077971204605
+REVIEW,FedAvg,20,0.3,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0056012534273404135
+REVIEW,FedAvg,20,0.3,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0073687600644122275
+REVIEW,FedAvg,20,0.6,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005561075714778818
+REVIEW,FedAvg,20,0.9,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005905348648765685
+REVIEW,FedAvg,20,0.9,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008152720826439808
+REVIEW,FedProx,20,0.3,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0056012534273404135
+REVIEW,FedProx,20,0.3,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0073687600644122275
+REVIEW,FedProx,20,0.6,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005561075714778818
+REVIEW,FedProx,20,0.9,alternate,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005905348648765685
+REVIEW,FedProx,20,0.9,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008152720826439808
+REVIEW,Fedsw,20,0.3,alternate,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,20,0.3,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,20,0.3,lateral,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,20,0.6,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,20,0.9,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,alternate,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006109693027314567
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,alternate,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008008204128893692
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,frontal,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0058384250745561195
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,frontal,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007650958688709908
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,lateral,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005214827488341678
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.6,lateral,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006830309874439999
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,alternate,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.006287006818849417
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,alternate,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008241801966855866
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,frontal,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005566522576878841
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,frontal,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007293035363440392
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,lateral,Label_F1_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.0056619993640849575
+REVIEW,Proposed_CBA_NHFL_MI_Q1,20,0.9,lateral,Jaccard_micro improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.007418699814223828
+REVIEW,FedAvg,40,0.6,frontal,ROUGE_L improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005127711177634109
+REVIEW,FedAvg,40,0.6,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005380983053446919
+REVIEW,FedAvg,40,0.9,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008687535826775727
+REVIEW,FedProx,40,0.6,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.005380983053446919
+REVIEW,FedProx,40,0.9,frontal,Label_F1_weighted improved materially under missingness; inspect this protocol separately rather than relying on the cross-protocol mean.,0.008687535826775727
+REVIEW,Fedsw,40,0.3,alternate,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,40,0.3,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,40,0.3,lateral,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,40,0.6,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
+REVIEW,Fedsw,40,0.9,frontal,Thresholded label predictions are unchanged despite probability changes. This may explain identical rounded F1.,0.0
