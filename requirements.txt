@@ -1,0 +1,24 @@
+# CoHiM-FL
+# Environment: Google Colab
+# Python and CUDA versions: Python 3 
+GPUs versions: A100 GPU
+xperimental Environment and Execution Procedure
+
+The CoHiM-FL framework was implemented in Python using Jupyter notebooks within Google Colaboratory (Google Colab). The experimental dataset was based on the Indiana University Chest X-ray collection, originally provided through the U.S. National Library of Medicine's Open-i platform (https://openi.nlm.nih.gov/). A compatible CSV/PNG distribution is also available at https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university.
+
+Following dataset acquisition and preparation, the files were uploaded to Google Drive and accessed by mounting Google Drive in the Google Colab environment. The experimental workflow was executed sequentially, cell by cell, including data preprocessing, dataset partitioning, model training, federated aggregation, and performance evaluation.
+
+A fixed data-partition seed of 42 and five independent experimental seeds (7, 21, 42, 84, and 126) were used. Experimental outputs were stored in Google Drive and subsequently consolidated to calculate mean values and standard deviations.
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+torchvision
+nltk
+Pillow
+rouge-score
+tqdm
+openpyxl
+jupyterlab
+ipykernel
