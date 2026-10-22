@@ -2,7 +2,7 @@
 
 **Communication-Efficient Hierarchical Multimodal Federated Learning for Medical Report Generation with Missing Modalities**
 
-This repository contains the implementation notebooks and archived numerical evidence supporting the CoHiM-FL study prepared for *PeerJ Computer Science* (AI Application). CoHiM-FL investigates a simulated client–edge–cloud federated setting with compressed model communication and missing-view handling for chest X-ray report generation. The study does **not** constitute a clinical deployment.
+This repository contains the implementation notebooks and archived numerical evidence supporting the CoHiM-FL. CoHiM-FL investigates a simulated client–edge–cloud federated setting with compressed model communication and missing-view handling for chest X-ray report generation. The study does **not** constitute a clinical deployment.
 
 ## Repository contents
 
@@ -51,12 +51,4 @@ python scripts/check_notebook_sources.py
 
 The scripts examine **saved artifacts**; passing these checks is **not equivalent to independent GPU retraining**, independent clinical validation or proof of full end-to-end reproducibility. Additional scripts may have further input requirements; inspect their source before running them.
 
-## Provenance and limitations
 
-The original archived experiment results used the internal identifier `Proposed_CBA_NHFL_MI_Q1`; the manuscript uses the project name **CoHiM-FL**. A change of display name does not by itself verify that revised notebooks reproduce historical experiments. Numerical metrics were not modified as part of the naming change.
-
-The numerical evaluation uses five independent seeds. Original model checkpoint binaries and an exact frozen environment are not included in the current repository. Some archived missing-view diagnostic flags remain to be investigated. These limitations should be retained when interpreting the evidence.
-
-## Citation, license, and contact
-
-When citing the work, use the final article metadata if and when it is published. No article DOI should be inferred before publication. A code license has not yet been selected; reuse permissions are therefore **not automatically granted**. Data from external providers remain subject to their own license or usage conditions.
